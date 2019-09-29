@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="code, decorator, pre"/>
+  <meta name="description" content="Simple CSS Code Styler for html"/>
+  <meta name="subject" content="Code Styler">
+  <meta name="copyright"content="ITBackyard © 2017">
+  <meta name="robots" content="index,follow" />
+  <meta name="abstract" content="">
+  <meta name="author" content="Maytham Fahmi, maythamfahmi@itbackyard.com">
+  <meta name="url" content="https://www.itbackyard.dk/CodeStyler">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <meta name="rating" content="General">
+  <meta http-equiv="Cache-Control" content="public">
+  
+  <title>Code Styler</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./css/CodeStyler.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Code Styler</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Simple Code Style</h1>
+        <a href="https://github.com/maythamfahmi/codestyler" class="btn btn-light"><span class="fa fa-github"></span> View on GitHub</a>
+        <!-- <ul class="list-unstyled">
+          <li>Bootstrap 4.3.1</li>
+          <li>jQuery 3.4.1</li>
+        </ul> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>Show div inside pre with line</h4>
+        <pre><&zwj;div>Hello World!<&zwj;/div></pre>
+      </div>
+
+      <div class="col-lg-12">
+        <h4>Code Sample</h4>
+        <p><a href="#" onclick="codeCopy('code1')">Copy</a> code to clipboard as Link</p>
+        <pre><code><span id='code1'>public static void Main()
+{
+    Console.WriteLine("Test");
+}</span></code></pre>
+      </div>
+
+      <div class="col-lg-12">
+        <h4>Code Sample with copy code button inside pre tag</h4>
+        <div class="code">
+          <pre><span id='code2'>void Start()
+{
+    Console.WriteLine("I will start");
+}</span></pre>
+            <button class="codeButton" onclick="codeCopy('code2')">Copy</button>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <h4>This code inside is editable!</h4>
+        <div class="code"> <!--style="padding: 0 0 0 0; background: 0"> -->
+            <pre contenteditable='true'><span id='code3'>void Editable()
+{
+    Console.WriteLine("Edit me");
+}</span></pre>
+            <button class='codeButton' onclick="codeCopy('code3')">Copy</button>
+        </div>
+      </div>
+
+    </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/CodeStyler.js"></script>
+  <script>
+
+  </script>
+
+</body>
+
+</html>
