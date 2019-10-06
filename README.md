@@ -1,5 +1,5 @@
 # Code Styler v.01
-Simple CSS and JavaScript Code Styler for html
+Open Source Simple Code Styler for html using CSS and JavaScript
 
 ![CodeStyler](./images/screenshot_01.png)
 
