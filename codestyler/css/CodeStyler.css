@@ -4,14 +4,13 @@ pre {
     border-left: 3px solid #f36d33;
     color: #666;
     page-break-inside: avoid;
-    font: normal normal 14px/16px "Courier New",Courier,Monospace;
+    font: normal normal 14px/16px "Courier New", Courier, Monospace;
     line-height: 1.0;
     margin-bottom: 1.6em;
     max-width: 100%;
     padding: .5em 1em;
     display: block;
     word-wrap: break-word;
-
     margin-left: 30px;
     overflow: auto;
     overflow-x: auto;
@@ -21,21 +20,17 @@ pre {
 
 pre:hover,
 pre:focus {
-    /* what ever action */
-    /* this is just example */
     border-left: 3px solid #338df3;
 }
 
-div.code
-{
-	position: relative;
+div.code {
+    position: relative;
 }
 
-pre + button
-{
-	position: absolute;
-	top: 0;
-	right: 0;
+pre+button {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 pre .line-number {
@@ -58,22 +53,24 @@ pre .cl {
 
 .codeButton {
     background-color: transparent;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2x;
-	border: 1px solid;
-	display: inline-block;
-	cursor: pointer;
-	color: #000;
-	font-family: Arial;
-	font-size: 14px;
-	padding: 2px 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2x;
+    border: 1px solid;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 2px 2px;
     text-decoration: none;
     margin: 2px 2px;
 }
-.codeButton:hover  {
+
+.codeButton:hover {
     background-color: transparent;
 }
+
 .codeButton:active {
-	top: 1px;
+    top: 1px;
 }

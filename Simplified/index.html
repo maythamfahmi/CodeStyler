@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Code Styler</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="code, decorator, pre"/>
-        <meta name="description" content="Simple CSS Code Styler for html"/>
-        <meta name="subject" content="Code Styler">
-        <meta name="copyright"content="ITBackyard © 2018">
-        <meta name="robots" content="index,follow" />
-        <meta name="abstract" content="">
-        <meta name="author" content="Maytham Fahmi, maythamfahmi@itbackyard.com">
-        <meta name="url" content="https://www.itbackyard.dk/CodeStyler">
-        <meta name="coverage" content="Worldwide">
-        <meta name="distribution" content="Global">
-        <meta name="rating" content="General">
-        <meta http-equiv="Cache-Control" content="public">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code Styler</title>
 
-        <link rel="stylesheet" href="../css/CodeStyler.css">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="code, decorator, pre" />
+    <meta name="description" content="Simple CSS Code Styler for html" />
+    <meta name="subject" content="Code Styler">
+    <meta name="copyright" content="ITBackyard © 2018">
+    <meta name="robots" content="index,follow" />
+    <meta name="abstract" content="">
+    <meta name="author" content="Maytham Fahmi, maythamfahmi@itbackyard.com">
+    <meta name="url" content="https://www.itbackyard.dk/CodeStyler">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta http-equiv="Cache-Control" content="public">
 
-    <body>
-        <p>Show div inside pre with line</p>
-        <pre><&zwj;div>Hello World!<&zwj;/div></pre>
-        
-        <p>Code Sample <a href="#" onclick="codeCopy('code1')">(Copy code to clipboard as Link)</a></p>
-        <pre><code><span id='code1'>public static void Main()
+    <link rel="stylesheet" href="../codestyler/css/CodeStyler.css">
+</head>
+
+<body>
+    <p>Show div inside pre with line</p>
+    <pre><&zwj;div>Hello World!<&zwj;/div></pre>
+
+    <p>Code Sample <a href="#" onclick="codeCopy('code1')">(Copy code to clipboard as Link)</a></p>
+    <pre><code><span id='code1'>public static void Main()
 {
     Console.WriteLine("Test");
 }</span></code></pre>
 
-        <p>Code Sample with copy code button inside pre tag</p>
-        <div class="code"> <!--style="padding: 0 0 0 0; background: 0"> -->
-            <pre><span id='code2'>void Start()
+    <p>Code Sample with copy code button inside pre tag</p>
+    <div class="code">
+        <!--style="padding: 0 0 0 0; background: 0"> -->
+        <pre><span id='code2'>void Start()
 {
     Console.WriteLine("I will start");
 }</span></pre>
-            <button class="codeButton" onclick="codeCopy('code2')">Copy</button>
-        </div>
+        <button class="codeButton" onclick="codeCopy('code2')">Copy</button>
+    </div>
 
-        <p>This code inside is editable!</p>
-        <div class="code"> <!--style="padding: 0 0 0 0; background: 0"> -->
-            <pre contenteditable='true'><span id='code3'>void Editable()
+    <p>This code inside is editable!</p>
+    <div class="code">
+        <!--style="padding: 0 0 0 0; background: 0"> -->
+        <pre contenteditable='true'><span id='code3'>void Editable()
 {
     Console.WriteLine("Edit me");
 }</span></pre>
-            <button class='codeButton' onclick="codeCopy('code3')">Copy</button>
-        </div>
+        <button class='codeButton' onclick="codeCopy('code3')">Copy</button>
+    </div>
 
-        <script src="../../js/CodeStyler.js"></script>
-    </body>
+    <script src="../codestyler/js/CodeStyler.js"></script>
+</body>
+
 </html>
