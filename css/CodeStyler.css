@@ -39,6 +39,7 @@ pre + button
 }
 
 pre .line-number {
+    user-select: none;
     float: left;
     margin: 0 1em 0 -1em;
     border-right: 1px solid;
