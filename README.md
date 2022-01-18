@@ -14,21 +14,19 @@ You can download CodeStyler via [Releases](https://github.com/maythamfahmi/codes
 
 Just copy following folder and files:
 
-- css
-    - CodeStyler.css
-- js
-    - CodeStyler.js
+- css/codestyler.css
+- js/codestyler.js
 
 to your project directory.
 
 And add following to your html header
 ```html
-<link rel="stylesheet" href="./css/CodeStyler.css">
+<link rel="stylesheet" href="./css/codestyler.css">
 ```
 
 And add following at the end of html just before </body> tag
-```javascript
-<script src="./js/CodeStyler.js"></script>
+```html
+<script src="./js/codestyler.js"></script>
 ```
 
 ## Versions
@@ -51,12 +49,12 @@ Please report issues [here](https://github.com/maythamfahmi/CodeStyler/issues).
 After adding the library folder to your working project, you can go a head and follow some of the examples below. We have also provided example folder that show the same examples.
 
 ### Customization
-```javascript
+```html
 <script type="text/javascript">
     var addLines = true; // if addLines is not set, by default is true
     var fontSize = 0; // if fontSize is not set, by default 0, which is size 14
 </script>
-<script src="./js/CodeStyler.js"></script>
+<script src="./js/codestyler.js"></script>
 ```
 
 ### View HTML line
