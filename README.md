@@ -6,7 +6,7 @@
 # Introdution
 :rocket: CodeStyler is a simple Open Source to style your code for html using JavaScript and CSS.
 
-Webpage: https://itbackyard.dk/codestyler/
+Webpage: https://maythamfahmi.github.io/CodeStyler
 
 ## Installation
 
