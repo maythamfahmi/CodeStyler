@@ -1,4 +1,4 @@
-# Code Styler v0.0.2
+# Code Styler
 
 [![GitHub](https://img.shields.io/github/license/maythamfahmi/CodeStyler)](https://github.com/maythamfahmi/CodeStyler/blob/main/LICENSE)
 
