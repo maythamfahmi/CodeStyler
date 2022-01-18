@@ -1,4 +1,4 @@
-# Code Styler
+<img src="https://raw.githubusercontent.com/maythamfahmi/CodeStyler/2ad6963a9c7bea7270abdd4b72da087e476aa586/images/codestyle.png" style="width: 500px;">
 
 [![GitHub](https://img.shields.io/github/license/maythamfahmi/CodeStyler)](https://github.com/maythamfahmi/CodeStyler/blob/main/LICENSE)
 
